@@ -3414,14 +3414,6 @@ CMDX_Button.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
 end)
 
-Invisible_Button.MouseButton1Click:Connect(function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/hxthegod/h/refs/heads/main/invisible'))()
-end)
-
-Voice_Button.MouseButton1Click:Connect(function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/Bobrocks12330/Voice-chat-unban/refs/heads/main/Script'))()
-end)
-
 Explode_Button.MouseButton1Click:Connect(function()
 	ToggleRagdoll(false)
 	task.wait()
