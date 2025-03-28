@@ -1,5 +1,6 @@
-# SystemBroken
+# Hax
 ## Paste:
 ```
-loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hxthegod/h/refs/heads/main/script"))()
+
 ```
