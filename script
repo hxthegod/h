@@ -892,6 +892,43 @@ FreePushTool_Button.TextScaled = true
 FreePushTool_Button.TextSize = 14.000
 FreePushTool_Button.TextWrapped = true
 
+-- Botão Invisible
+Invisible_Button.Name = "Invisible_Button"
+Invisible_Button.Parent = Game_Section
+Invisible_Button.BackgroundColor3 = Color3.fromRGB(0, 0, 255)  -- Azul para diferenciar
+Invisible_Button.BackgroundTransparency = 0.500
+Invisible_Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Invisible_Button.BorderSizePixel = 0
+Invisible_Button.Position = UDim2.new(0, 25, 0, 65)  -- Ajustei a posição
+Invisible_Button.Size = UDim2.new(0, 150, 0, 30)
+Invisible_Button.Font = Enum.Font.Oswald
+Invisible_Button.Text = "Invisible"
+Invisible_Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+Invisible_Button.TextScaled = true
+Invisible_Button.TextSize = 14.000
+Invisible_Button.TextWrapped = true
+
+-- Ação do botão Invisible
+Invisible_Button.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/hxthegod/h/refs/heads/main/invisible.txt'))()
+end)
+
+-- Botão Voice
+Voice_Button.Name = "Voice_Button"
+Voice_Button.Parent = Game_Section
+Voice_Button.BackgroundColor3 = Color3.fromRGB(0, 255, 0)  -- Verde para diferenciar
+Voice_Button.BackgroundTransparency = 0.500
+Voice_Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Voice_Button.BorderSizePixel = 0
+Voice_Button.Position = UDim2.new(0, 25, 0, 105)  -- Ajustei a posição
+Voice_Button.Size = UDim2.new(0, 150, 0, 30)
+Voice_Button.Font = Enum.Font.Oswald
+Voice_Button.Text = "Voice"
+Voice_Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+Voice_Button.TextScaled = true
+Voice_Button.TextSize = 14.000
+Voice_Button.TextWrapped = true
+
 Home_Section.Name = "Home_Section"
 Home_Section.Parent = Background
 Home_Section.Active = true
@@ -3411,6 +3448,14 @@ end)
 
 CMDX_Button.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
+end)
+
+Voice_Button.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/hxthegod/h/refs/heads/main/voice.txt'))()
+end)
+
+Invisible_Button.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/hxthegod/h/refs/heads/main/invisible.txt'))()
 end)
 
 Explode_Button.MouseButton1Click:Connect(function()
