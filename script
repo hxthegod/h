@@ -908,11 +908,6 @@ Invisible_Button.TextScaled = true
 Invisible_Button.TextSize = 14.000
 Invisible_Button.TextWrapped = true
 
--- Ação do botão Invisible
-Invisible_Button.MouseButton1Click:Connect(function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/hxthegod/h/refs/heads/main/invisible.txt'))()
-end)
-
 -- Botão Voice
 Voice_Button.Name = "Voice_Button"
 Voice_Button.Parent = Game_Section
@@ -3450,12 +3445,12 @@ CMDX_Button.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
 end)
 
-Voice_Button.MouseButton1Click:Connect(function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/hxthegod/h/refs/heads/main/voice.txt'))()
+Invisible_Button.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/hxthegod/h/refs/heads/main/invisible'))()
 end)
 
-Invisible_Button.MouseButton1Click:Connect(function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/hxthegod/h/refs/heads/main/invisible.txt'))()
+Voice_Button.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Bobrocks12330/Voice-chat-unban/refs/heads/main/Script'))()
 end)
 
 Explode_Button.MouseButton1Click:Connect(function()
