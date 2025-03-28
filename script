@@ -862,67 +862,36 @@ SkyscraperTP_Button.TextScaled = true
 SkyscraperTP_Button.TextSize = 14.000
 SkyscraperTP_Button.TextWrapped = true
 
-PoolTP_Button.Name = "PoolTP_Button"
-PoolTP_Button.Parent = Game_Section
-PoolTP_Button.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-PoolTP_Button.BackgroundTransparency = 0.500
-PoolTP_Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
-PoolTP_Button.BorderSizePixel = 0
-PoolTP_Button.Position = UDim2.new(0, 210, 0, 600)
-PoolTP_Button.Size = UDim2.new(0, 150, 0, 30)
-PoolTP_Button.Font = Enum.Font.Oswald
-PoolTP_Button.Text = "TP Pool"
-PoolTP_Button.TextColor3 = Color3.fromRGB(0, 0, 0)
-PoolTP_Button.TextScaled = true
-PoolTP_Button.TextSize = 14.000
-PoolTP_Button.TextWrapped = true
-
-FreePushTool_Button.Name = "FreePushTool_Button"
-FreePushTool_Button.Parent = Game_Section
-FreePushTool_Button.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-FreePushTool_Button.BackgroundTransparency = 0.500
-FreePushTool_Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
-FreePushTool_Button.BorderSizePixel = 0
-FreePushTool_Button.Position = UDim2.new(0, 210, 0, 175)
-FreePushTool_Button.Size = UDim2.new(0, 150, 0, 30)
-FreePushTool_Button.Font = Enum.Font.Oswald
-FreePushTool_Button.Text = "Modded push"
-FreePushTool_Button.TextColor3 = Color3.fromRGB(0, 0, 0)
-FreePushTool_Button.TextScaled = true
-FreePushTool_Button.TextSize = 14.000
-FreePushTool_Button.TextWrapped = true
-
--- Botão Invisible
 Invisible_Button.Name = "Invisible_Button"
 Invisible_Button.Parent = Game_Section
-Invisible_Button.BackgroundColor3 = Color3.fromRGB(0, 0, 255)  -- Azul para diferenciar
+Invisible_Button.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 Invisible_Button.BackgroundTransparency = 0.500
 Invisible_Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Invisible_Button.BorderSizePixel = 0
-Invisible_Button.Position = UDim2.new(0, 25, 0, 65)  -- Ajustei a posição
+Invisible_Button.Position = UDim2.new(0, 210, 0, 600)
 Invisible_Button.Size = UDim2.new(0, 150, 0, 30)
 Invisible_Button.Font = Enum.Font.Oswald
-Invisible_Button.Text = "Invisible"
-Invisible_Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+Invisible_Button.Text = "invisible"
+Invisible_Button.TextColor3 = Color3.fromRGB(0, 0, 0)
 Invisible_Button.TextScaled = true
 Invisible_Button.TextSize = 14.000
 Invisible_Button.TextWrapped = true
 
--- Botão Voice
 Voice_Button.Name = "Voice_Button"
 Voice_Button.Parent = Game_Section
-Voice_Button.BackgroundColor3 = Color3.fromRGB(0, 255, 0)  -- Verde para diferenciar
+Voice_Button.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 Voice_Button.BackgroundTransparency = 0.500
 Voice_Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Voice_Button.BorderSizePixel = 0
-Voice_Button.Position = UDim2.new(0, 25, 0, 105)  -- Ajustei a posição
+Voice_Button.Position = UDim2.new(0, 210, 0, 175)
 Voice_Button.Size = UDim2.new(0, 150, 0, 30)
 Voice_Button.Font = Enum.Font.Oswald
-Voice_Button.Text = "Voice"
-Voice_Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+Voice_Button.Text = "Voice on"
+Voice_Button.TextColor3 = Color3.fromRGB(0, 0, 0)
 Voice_Button.TextScaled = true
 Voice_Button.TextSize = 14.000
 Voice_Button.TextWrapped = true
+
 
 Home_Section.Name = "Home_Section"
 Home_Section.Parent = Background
