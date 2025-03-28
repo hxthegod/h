@@ -3311,7 +3311,7 @@ AntiFling_Button.MouseButton1Click:Connect(function()
 	ChangeToggleColor(AntiFling_Button)
 	if AntiFling_Button.Ticket_Asset.ImageColor3 == Color3.fromRGB(0,255,0) then
 		_G.AntiFlingToggled = true
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/h/SystemBroken/main/AntiFling'))()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/hxthegod/h/main/AntiFling'))()
 	else
 		_G.AntiFlingToggled = false
 	end
@@ -3430,7 +3430,7 @@ FreeEmotes_Button.MouseButton1Click:Connect(function()
 	if not FreeEmotesEnabled then
 		FreeEmotesEnabled = true
 		SendNotify("Hax The God","Loading free emotes.\nCredits: Gi#7331")
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/h/SystemBroken/main/AllEmotes"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/hxthegod/h/main/AllEmotes"))()
 	end
 end)
 
@@ -3513,7 +3513,7 @@ end)
 task.spawn(function()
 	while task.wait(10) do
 		pcall(function()
-			local GuiVersion = loadstring(game:HttpGet("https://raw.githubusercontent.com/h/SystemBroken/main/version"))()
+			local GuiVersion = loadstring(game:HttpGet("https://raw.githubusercontent.com/hxthegod/h/main/version"))()
 			if version<GuiVersion then
 				SendNotify("Hax The God","You are not using the latest version, please run the script again.",5)
 				task.wait(5)
@@ -3537,4 +3537,4 @@ end)
 
 SendNotify("Hax The God","developed by hax",10)
 setclipboard("hax the god")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/h/SystemBroken/main/premium"))() -- load the premium
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hxthegod/h/main/premium"))() -- load the premium
